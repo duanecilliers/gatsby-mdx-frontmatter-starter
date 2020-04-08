@@ -9,6 +9,7 @@
 </h1>
 
 Kick off your project with this MDX boilerplate. This starter ships with the main Gatsby configuration files along with examples for using MDX in frontmatter. This is especially useful when integrating with Netlify CMS as markdown fields are stored as frontmatter.
+Huge thanks to [@zslabs](https://github.com/zslabs) for his article [MDX frontmatter in Gatsby](https://zslabs.com/articles/mdx-frontmatter-in-gatsby).
 
 ## 🚀 Quick start
 
