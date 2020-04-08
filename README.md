@@ -14,7 +14,7 @@ Kick off your project with this MDX boilerplate. This starter ships with the mai
 
 1.  **Create a Gatsby site.**
 
-    Use the Gatsby CLI to create a new site, specifying the default starter.
+    Use the Gatsby CLI to create a new site, specifying the MDX frontmatter starter.
 
     ```shell
     # create a new Gatsby site using this starter
