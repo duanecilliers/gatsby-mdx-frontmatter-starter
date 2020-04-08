@@ -5,12 +5,10 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby's default starter
+  Gatsby's MDX frontmatter starter
 </h1>
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
-
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+Kick off your project with this MDX boilerplate. This starter ships with the main Gatsby configuration files along with examples for using MDX in frontmatter. This is especially useful when integrating with Netlify CMS as markdown fields are stored as frontmatter.
 
 ## 🚀 Quick start
 
@@ -19,8 +17,8 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     Use the Gatsby CLI to create a new site, specifying the default starter.
 
     ```shell
-    # create a new Gatsby site using the default starter
-    gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
+    # create a new Gatsby site using this starter
+    gatsby new my-default-starter https://github.com/duanecilliers/gatsby-mdx-frontmatter-starter
     ```
 
 1.  **Start developing.**
@@ -92,8 +90,8 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 ## 💫 Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/duanecilliers/gatsby-mdx-frontmatter-starter)
 
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/gatsbyjs/gatsby-starter-default)
+[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/duanecilliers/gatsby-mdx-frontmatter-starter)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
