@@ -14,23 +14,23 @@ export default function PostTemplate({ data: { mdx } }) {
 
   return (
     <MDXProvider components={shortcodes}>
-    <Layout>
-      <SEO title={title} />
-      <h1>{title}</h1>
-        {items && (
-          <>
-            <h2>Items from frontmatter. Each item contains MDX.</h2>
-            <ul>
-              {
-                items.map(item => (
-                  <li key={item.value}>
-                    <MDXRenderer>{item.value}</MDXRenderer>
-                  </li>
-                ))
-              }
-            </ul>
-          </>
-        )}
+      <Layout>
+        <SEO title={title} />
+        <h1>{title}</h1>
+          {items && (
+            <>
+              <h2>Items from frontmatter. Each item contains MDX.</h2>
+              <ul>
+                {
+                  items.map(item => (
+                    <li key={item.value}>
+                      <MDXRenderer>{item.value}</MDXRenderer>
+                    </li>
+                  ))
+                }
+              </ul>
+            </>
+          )}
 
         <MDXRenderer>{mdx.body}</MDXRenderer>
       </Layout>
